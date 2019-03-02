@@ -79,23 +79,23 @@ const ContactBlock = () => {
       <ContactTitleBlock>hit me up</ContactTitleBlock>
       <ContactTypeContainer>
         <ContactForm name="dim-contact" method="POST" data-netlify="true">
-          <TextInput tabindex="1" name={'name'} placeholder={'full name'} />
-          <TextInput tabindex="2" name={'email'} placeholder={'email'} type={'email'} />
-          <TextInput tabindex="3" name={'message'} type={'textarea'} placeholder={'message...'} />
+          <TextInput name={'name'} placeholder={'full name'} />
+          <TextInput name={'email'} placeholder={'email'} type={'email'} />
+          <TextInput
+            name={'message'}
+            type={'textarea'}
+            placeholder={'message...'}
+          />
           <ContactFormButtonContainer>
-            <BlockButton tabindex="4" onClick={() => {
-              document.forms['dim-contact'].submit();
-            }}>send</BlockButton>
+            <BlockButton
+              onClick={() => {
+                document.forms['dim-contact'].submit();
+              }}
+            >
+              send
+            </BlockButton>
           </ContactFormButtonContainer>
         </ContactForm>
-        {/* <SocialBlock>
-          <SocialIcon>
-            <ReactSVG src="static/contact-github.svg"></ReactSVG>
-          </SocialIcon>
-          <SocialIcon>
-            <ReactSVG src="static/contact-linkedin.svg"></ReactSVG>
-          </SocialIcon>
-        </SocialBlock> */}
       </ContactTypeContainer>
     </ContactBlockContainer>
   );

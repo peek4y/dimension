@@ -46,7 +46,6 @@ const LogoBlinker = styled.div`
 const Logo = styled.div`
   height: 200px;
   width: 200px;
-  // background: url('static/images/gr.png');
   background-size: contain;
   position: absolute;
   top: 0;
