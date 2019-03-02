@@ -49,6 +49,9 @@ const IntroDescriptionBlock = styled.div`
   @media (max-width: 1400px) {
     font-size: 13pt;
   }
+  @media (max-height: 900px) {
+    font-size: 11pt;
+  }
   @media (max-width: 800px) {
     font-size: 11pt;
   }
@@ -58,9 +61,6 @@ const IntroDescriptionBlock = styled.div`
   @media (max-height: 640px) {
     margin: 10px 3vw;
     letter-spacing: normal;
-  }
-  @media (max-height: 900px) {
-    font-size: 11pt;
   }
 `;
 

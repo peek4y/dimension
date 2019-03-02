@@ -60,6 +60,9 @@ const ContactFormButtonContainer = styled.div`
   justify-content: center;
   display: flex;
   margin: 20px 0px;
+  @media (max-width: 1400px) {
+    margin: 10px 0px 30px 0px;
+  }
   @media (max-width: 380px) {
     margin: 20px 0px 30px 0px;
   }
