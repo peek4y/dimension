@@ -126,10 +126,10 @@ const IntroBlock = () => {
         {IntroTextPartTwo}
       </IntroDescriptionBlock>
       <SocialBlock>
-        <SocialIcon>
+        <SocialIcon href="https://github.com/peek4y" target="_blank" rel="noopener" alt="">
           <ReactSVG src="static/contact-github.svg" />
         </SocialIcon>
-        <SocialIcon>
+        <SocialIcon href="https://www.linkedin.com/in/peek4y" target="_blank" rel="noopener" alt="">
           <ReactSVG src="static/contact-linkedin.svg" />
         </SocialIcon>
       </SocialBlock>
