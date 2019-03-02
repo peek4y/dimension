@@ -1,6 +1,7 @@
 import { BlockColorOne } from '../colors';
 import { BlockContainer } from './block-container';
 import styled from 'styled-components';
+import ReactSVG from 'react-svg';
 
 const IntroBaseBlockContainer = styled(BlockContainer)`
   justify-content: center;
@@ -29,8 +30,11 @@ const HiBlock = styled.div`
   @media (max-width: 1400px) {
     font-size: 23pt;
   }
-  @media (max-width: 380px) {
+  @media (max-width: 800px) {
     font-size: 17pt;
+  }
+  @media (max-width: 380px) {
+    font-size: 15pt;
   }
   @media (max-height: 640px) {
     margin: 10px 0px 0px 0px;
@@ -45,12 +49,64 @@ const IntroDescriptionBlock = styled.div`
   @media (max-width: 1400px) {
     font-size: 13pt;
   }
+  @media (max-width: 800px) {
+    font-size: 11pt;
+  }
   @media (max-width: 380px) {
-    font-size: 10pt;
+    font-size: 9pt;
   }
   @media (max-height: 640px) {
     margin: 10px 3vw;
     letter-spacing: normal;
+  }
+  @media (max-height: 900px) {
+    font-size: 11pt;
+  }
+`;
+
+const SocialBlock = styled.div`
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+`;
+const SocialIcon = styled.a`
+  cursor: pointer;
+  @media (max-width: 1400px) {
+    svg {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  @media (max-width: 800px) {
+    svg {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  @media (max-height: 830px) {
+    svg {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  @media (max-width: 380px) {
+    svg {
+      width: 70px;
+      height: 70px;
+    }
+  }
+  @media (max-width: 320px) {
+    svg {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  @media (max-height: 640px) {
+    svg {
+      width: 60px;
+      height: 60px;
+    }
   }
 `;
 
@@ -69,6 +125,14 @@ const IntroBlock = () => {
         <br />
         {IntroTextPartTwo}
       </IntroDescriptionBlock>
+      <SocialBlock>
+        <SocialIcon>
+          <ReactSVG src="static/contact-github.svg" />
+        </SocialIcon>
+        <SocialIcon>
+          <ReactSVG src="static/contact-linkedin.svg" />
+        </SocialIcon>
+      </SocialBlock>
     </IntroBaseBlockContainer>
   );
 };
