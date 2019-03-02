@@ -70,7 +70,7 @@ const WorkBlock = () => {
       </WorkItemBlock>
       <PSBlock>
         <p>
-          psst..btw, i currently work full-time @ 
+          psst..btw, i currently work full-time at 
           <PSBlockHighlightText href="https://salesforce.com" target="_blank" rel="noopener">
             salesforce
           </PSBlockHighlightText>
