@@ -83,11 +83,15 @@ const ContactBlock = () => {
     <ContactBlockContainer backgroundColor={BlockColorFour}>
       <ContactTitleBlock>hit me up</ContactTitleBlock>
       <ContactTypeContainer>
-        <ContactForm name="dim-contact" method="POST" data-netlify="true">
-          <TextInput name={'name'} placeholder={'full name'} type={'text'} />
-          <TextInput name={'email'} placeholder={'email'} type={'email'} />
+        <ContactForm name="contact" method="POST" netlify>
           <TextInput
-            name={'message'}
+            name={'username'}
+            placeholder={'full name'}
+            type={'text'}
+          />
+          <TextInput name={'useremail'} placeholder={'email'} type={'email'} />
+          <TextInput
+            name={'usermessage'}
             type={'textarea'}
             placeholder={'message...'}
           />
