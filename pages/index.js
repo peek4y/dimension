@@ -4,6 +4,7 @@ import { SubBlockContainer } from '../components/sub-block-container';
 import { BlockColorThree, BlockColorFour } from '../colors';
 import IntroBlock from '../components/intro-block';
 import ToolsBlock from '../components/tools-block';
+import WorkBlock from '../components/work-block';
 const Home = () => {
   return (
     <SuperBlockContainer>
@@ -12,7 +13,7 @@ const Home = () => {
         <ToolsBlock />
       </SubBlockContainer>
       <SubBlockContainer flexDirection="row">
-        <BlockContainer backgroundColor={BlockColorThree} />
+        <WorkBlock />
         <BlockContainer backgroundColor={BlockColorFour} />
       </SubBlockContainer>
     </SuperBlockContainer>
