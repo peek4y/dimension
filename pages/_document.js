@@ -38,7 +38,6 @@ export default class DimensionDocument extends Document {
           {this.props.styleTags}
         </Head>
         <body>
-          <PageLoaderBlock id="dim-spinner" />
           <Main />
           <NextScript />
           <script src='static/loader.js'></script>

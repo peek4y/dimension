@@ -30,10 +30,15 @@ const ContactTypeContainer = styled.div`
 const ContactForm = styled.form`
   display: flex;
   flex-direction: column;
-  margin: 5px 5vw;
   input,
   textarea {
     margin-top: 20px;
+  }
+  @media (max-width: 1400px) {
+    input,
+    textarea {
+      margin-top: 15px;
+    }
   }
   @media (max-width: 380px) {
     margin-top: 0px;
