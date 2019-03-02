@@ -84,7 +84,7 @@ const ContactBlock = () => {
       <ContactTitleBlock>hit me up</ContactTitleBlock>
       <ContactTypeContainer>
         <ContactForm name="dim-contact" method="POST" data-netlify="true">
-          <TextInput name={'name'} placeholder={'full name'} />
+          <TextInput name={'name'} placeholder={'full name'} type={'text'} />
           <TextInput name={'email'} placeholder={'email'} type={'email'} />
           <TextInput
             name={'message'}
