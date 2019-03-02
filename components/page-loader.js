@@ -6,7 +6,8 @@ const PageLoader = styled.div`
   align-items: center;
   background-color: white;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
+  overflow: none;
   position: fixed;
   justify-content: center;
   width: 100vw;

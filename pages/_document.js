@@ -1,6 +1,5 @@
 import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
-import PageLoaderBlock from '../components/page-loader';
 
 export default class DimensionDocument extends Document {
   /**
@@ -34,7 +33,6 @@ export default class DimensionDocument extends Document {
             rel="stylesheet"
             async
           />
-          <title>Gautham Ramachandran</title>
           {this.props.styleTags}
         </Head>
         <body>
