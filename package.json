@@ -1,0 +1,32 @@
+{
+  "name": "dimension",
+  "version": "1.0.0",
+  "description": "Personal Website & Blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "npm run build && npm run export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/peek4y/dimension.git"
+  },
+  "author": "Gautham Ramachandran <gautham2r@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/peek4y/dimension/issues"
+  },
+  "homepage": "https://gitlab.com/peek4y/dimension#readme",
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.0"
+  }
+}
