@@ -48,36 +48,86 @@ const ToolsBlock = () => {
     <ToolsBlockContainer backgroundColor={BlockColorTwo}>
       <ToolsTitleBlock>some of the tools, i use.</ToolsTitleBlock>
       <ToolsList flexDirection="row">
-        <ToolIcon href="https://stackshare.io/git" target="_blank">
+        <ToolIcon
+          href="https://stackshare.io/git"
+          target="_blank"
+          rel="noopener"
+          alt="" 
+        >
           <ReactSVG src="static/dev-icons/git.svg" />
         </ToolIcon>
-        <ToolIcon href="https://stackshare.io/nodejs" target="_blank">
+        <ToolIcon
+          href="https://stackshare.io/nodejs"
+          target="_blank"
+          rel="noopener"
+          alt="" 
+        >
           <ReactSVG src="static/dev-icons/nodejs.svg" />
         </ToolIcon>
-        <ToolIcon href="https://stackshare.io/visual-studio-code" target="_blank">
+        <ToolIcon
+          href="https://stackshare.io/visual-studio-code"
+          target="_blank"
+          rel="noopener"
+          alt="" 
+        >
           <ReactSVG src="static/dev-icons/vs.svg" />
         </ToolIcon>
-        <ToolIcon href="https://stackshare.io/c-sharp" target="_blank">
+        <ToolIcon
+          href="https://stackshare.io/c-sharp"
+          target="_blank"
+          rel="noopener"
+          alt="" 
+        >
           <ReactSVG src="static/dev-icons/csharp.svg" />
         </ToolIcon>
-        <ToolIcon href="https://stackshare.io/react" target="_blank">
+        <ToolIcon
+          href="https://stackshare.io/react"
+          target="_blank"
+          rel="noopener"
+          alt="" 
+        >
           <ReactSVG src="static/dev-icons/react.svg" />
         </ToolIcon>
       </ToolsList>
       <ToolsList flexDirection="row">
-        <ToolIcon href="https://stackshare.io/postgresql" target="_blank">
+        <ToolIcon
+          href="https://stackshare.io/postgresql"
+          target="_blank"
+          rel="noopener"
+          alt="" 
+        >
           <ReactSVG src="static/dev-icons/postgres.svg" />
         </ToolIcon>
-        <ToolIcon href="https://stackshare.io/docker" target="_blank">
+        <ToolIcon
+          href="https://stackshare.io/docker"
+          target="_blank"
+          rel="noopener"
+          alt="" 
+        >
           <ReactSVG src="static/dev-icons/docker.svg" />
         </ToolIcon>
-        <ToolIcon href="https://stackshare.io/typescript" target="_blank">
+        <ToolIcon
+          href="https://stackshare.io/typescript"
+          target="_blank"
+          rel="noopener"
+          alt="" 
+        >
           <ReactSVG src="static/dev-icons/ts.svg" />
         </ToolIcon>
-        <ToolIcon href="https://stackshare.io/dot-net" target="_blank">
+        <ToolIcon
+          href="https://stackshare.io/dot-net"
+          target="_blank"
+          rel="noopener"
+          alt="" 
+        >
           <ReactSVG src="static/dev-icons/dotnet.svg" />
         </ToolIcon>
-        <ToolIcon href="https://stackshare.io/go" target="_blank">
+        <ToolIcon
+          href="https://stackshare.io/go"
+          target="_blank"
+          rel="noopener"
+          alt="" 
+        >
           <ReactSVG src="static/dev-icons/go.svg" />
         </ToolIcon>
       </ToolsList>

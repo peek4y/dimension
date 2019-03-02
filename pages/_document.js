@@ -1,5 +1,6 @@
 import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
+import PageLoaderBlock from '../components/page-loader';
 
 export default class DimensionDocument extends Document {
   /**
@@ -31,12 +32,16 @@ export default class DimensionDocument extends Document {
           <link
             href="https://fonts.googleapis.com/css?family=Major+Mono+Display&amp;subset=latin-ext"
             rel="stylesheet"
+            async
           />
+          <title>Gautham Ramachandran</title>
           {this.props.styleTags}
         </Head>
         <body>
+          <PageLoaderBlock id="dim-spinner" />
           <Main />
           <NextScript />
+          <script src='static/loader.js'></script>
         </body>
       </html>
     );
