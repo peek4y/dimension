@@ -39,43 +39,45 @@ const ToolsList = styled(BlockContainer)`
     }
   }
 `;
-const ToolIcon = styled.div``;
+const ToolIcon = styled.a`
+  cursor: pointer;
+`;
 
 const ToolsBlock = () => {
   return (
     <ToolsBlockContainer backgroundColor={BlockColorTwo}>
       <ToolsTitleBlock>some of the tools, i use.</ToolsTitleBlock>
       <ToolsList flexDirection="row">
-        <ToolIcon>
+        <ToolIcon href="https://stackshare.io/git" target="_blank">
           <ReactSVG src="static/dev-icons/git.svg" />
         </ToolIcon>
-        <ToolIcon>
+        <ToolIcon href="https://stackshare.io/nodejs" target="_blank">
           <ReactSVG src="static/dev-icons/nodejs.svg" />
         </ToolIcon>
-        <ToolIcon>
+        <ToolIcon href="https://stackshare.io/visual-studio-code" target="_blank">
           <ReactSVG src="static/dev-icons/vs.svg" />
         </ToolIcon>
-        <ToolIcon>
+        <ToolIcon href="https://stackshare.io/c-sharp" target="_blank">
           <ReactSVG src="static/dev-icons/csharp.svg" />
         </ToolIcon>
-        <ToolIcon>
+        <ToolIcon href="https://stackshare.io/react" target="_blank">
           <ReactSVG src="static/dev-icons/react.svg" />
         </ToolIcon>
       </ToolsList>
       <ToolsList flexDirection="row">
-        <ToolIcon>
+        <ToolIcon href="https://stackshare.io/postgresql" target="_blank">
           <ReactSVG src="static/dev-icons/postgres.svg" />
         </ToolIcon>
-        <ToolIcon>
+        <ToolIcon href="https://stackshare.io/docker" target="_blank">
           <ReactSVG src="static/dev-icons/docker.svg" />
         </ToolIcon>
-        <ToolIcon>
+        <ToolIcon href="https://stackshare.io/typescript" target="_blank">
           <ReactSVG src="static/dev-icons/ts.svg" />
         </ToolIcon>
-        <ToolIcon>
+        <ToolIcon href="https://stackshare.io/dot-net" target="_blank">
           <ReactSVG src="static/dev-icons/dotnet.svg" />
         </ToolIcon>
-        <ToolIcon>
+        <ToolIcon href="https://stackshare.io/go" target="_blank">
           <ReactSVG src="static/dev-icons/go.svg" />
         </ToolIcon>
       </ToolsList>

@@ -27,6 +27,7 @@ export default class DimensionDocument extends Document {
             key="viewport"
           />
           <meta name="theme-color" content="orange" />
+          <link rel="icon" type="image/x-icon" href="/static/images/gr.png" />
           <link
             href="https://fonts.googleapis.com/css?family=Major+Mono+Display&amp;subset=latin-ext"
             rel="stylesheet"
