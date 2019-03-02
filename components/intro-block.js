@@ -29,8 +29,8 @@ const HiBlock = styled.div`
   @media (max-width: 1400px) {
     font-size: 23pt;
   }
-  @media (max-width: 1000px) {
-    font-size: 23pt;
+  @media (max-width: 380px) {
+    font-size: 17pt;
   }
   @media (max-height: 640px) {
     margin: 10px 0px 0px 0px;
@@ -45,8 +45,8 @@ const IntroDescriptionBlock = styled.div`
   @media (max-width: 1400px) {
     font-size: 13pt;
   }
-  @media (max-width: 1000px) {
-    font-size: 13pt;
+  @media (max-width: 380px) {
+    font-size: 10pt;
   }
   @media (max-height: 640px) {
     margin: 10px 3vw;
