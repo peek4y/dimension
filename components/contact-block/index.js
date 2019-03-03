@@ -86,15 +86,15 @@ const ContactBlock = () => {
     <ContactBlockContainer backgroundColor={BlockColorFour}>
       <ContactTitleBlock>hit me up</ContactTitleBlock>
       <ContactTypeContainer>
-        <ContactForm name="contact" method="POST" data-netlify="true">
+        <ContactForm name="contact" method="POST" action="https://formspree.io/gautham2r@gmail.com">
           <TextInput
-            name={'username'}
+            name={'name'}
             placeholder={'full name'}
             type={'text'}
           />
-          <TextInput name={'useremail'} placeholder={'email'} type={'email'} />
+          <TextInput name={'email'} placeholder={'email'} type={'email'} />
           <TextInput
-            name={'usermessage'}
+            name={'message'}
             type={'textarea'}
             placeholder={'message...'}
           />
