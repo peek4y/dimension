@@ -86,7 +86,7 @@ const ContactBlock = () => {
     <ContactBlockContainer backgroundColor={BlockColorFour}>
       <ContactTitleBlock>hit me up</ContactTitleBlock>
       <ContactTypeContainer>
-        <ContactForm name="contact" method="POST" netlify>
+        <ContactForm name="contact" method="POST" data-netlify="true">
           <TextInput
             name={'username'}
             placeholder={'full name'}
