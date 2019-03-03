@@ -26,6 +26,7 @@ export default class DimensionDocument extends Document {
             content="initial-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no, minimal-ui"
             key="viewport"
           />
+          <meta name="referrer" content="origin" />
           <meta name="theme-color" content="orange" />
           <link rel="icon" type="image/x-icon" href="/static/images/gr.png" />
           <link
@@ -38,7 +39,7 @@ export default class DimensionDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script src='static/loader.js'></script>
+          <script src="static/loader.js" />
         </body>
       </html>
     );

@@ -71,28 +71,22 @@ const ContactFormButtonContainer = styled.div`
   }
 `;
 
-const SocialBlock = styled.div`
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+const HiddenSubmit = styled.input`
+  display: none;
 `;
-
-const SocialIcon = styled.a``;
 
 const ContactBlock = () => {
   return (
     <ContactBlockContainer backgroundColor={BlockColorFour}>
       <ContactTitleBlock>hit me up</ContactTitleBlock>
       <ContactTypeContainer>
-        <ContactForm name="contact" method="POST" action="https://formspree.io/gautham2r@gmail.com">
-          <TextInput
-            name={'name'}
-            placeholder={'full name'}
-            type={'text'}
-          />
-          <TextInput name={'email'} placeholder={'email'} type={'email'} />
+        <ContactForm
+          name="contact"
+          method="POST"
+          action="https://formspree.io/gautham2r@gmail.com"
+        >
+          <TextInput name={'name'} placeholder={'full name'} type={'text'} />
+          <TextInput name={'_replyto'} placeholder={'email'} type={'email'} />
           <TextInput
             name={'message'}
             type={'textarea'}
@@ -107,6 +101,7 @@ const ContactBlock = () => {
               send
             </BlockButton>
           </ContactFormButtonContainer>
+          <HiddenSubmit type={'submit'} />
         </ContactForm>
       </ContactTypeContainer>
     </ContactBlockContainer>
