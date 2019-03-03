@@ -101,7 +101,7 @@ const ContactBlock = () => {
           <ContactFormButtonContainer>
             <BlockButton
               onClick={() => {
-                document.forms['dim-contact'].submit();
+                document.forms['contact'].submit();
               }}
             >
               send
