@@ -158,7 +158,7 @@ const IntroBlock = () => {
         <SocialIcon title="LinkedIn" href="https://www.linkedin.com/in/peek4y" target="_blank" rel="noopener" alt="">
           <ReactSVG src="static/contact-linkedin.svg" />
         </SocialIcon>
-        <ResumeIcon title="Resume" href="resume/GauthamRamachandranResume.pdf" target="_blank" rel="noopener" alt="" download="GauthamRamachandranResume.pdf">
+        <ResumeIcon title="Resume" href="static/resume/GauthamRamachandranResume.pdf" target="_blank" rel="noopener" alt="" download="GauthamRamachandranResume.pdf">
           <ReactSVG src="static/resume.svg" />
         </ResumeIcon>
       </SocialBlock>
