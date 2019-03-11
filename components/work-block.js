@@ -1,10 +1,13 @@
-import { BlockColorThree } from '../colors';
+import { BlockColorThree, BlockColorFour } from '../colors';
 import { BlockContainer } from './block-container';
 import styled from 'styled-components';
 import ReactSVG from 'react-svg';
 
 const WorkBlockContainer = styled(BlockContainer)`
   color: #fff;
+  @media (max-width: 1000px) {
+    background: ${BlockColorFour};
+  }
 `;
 
 const WorkTitleBlock = styled.div`

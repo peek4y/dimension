@@ -1,11 +1,14 @@
 import { BlockContainer } from '../block-container';
 import styled from 'styled-components';
-import { BlockColorFour } from '../../colors';
+import { BlockColorFour, BlockColorThree } from '../../colors';
 import TextInput from './text-input';
 import BlockButton from '../block-button';
-import ReactSVG from 'react-svg';
 
-const ContactBlockContainer = styled(BlockContainer)``;
+const ContactBlockContainer = styled(BlockContainer)`
+  @media (max-width: 1000px) {
+    background: ${BlockColorThree};
+  }
+`;
 
 const ContactTitleBlock = styled.div`
   text-align: center;
