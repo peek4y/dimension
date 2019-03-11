@@ -3,7 +3,9 @@ import { BlockContainer } from './block-container';
 import styled from 'styled-components';
 import ReactSVG from 'react-svg';
 
-const WorkBlockContainer = styled(BlockContainer)``;
+const WorkBlockContainer = styled(BlockContainer)`
+  color: #fff;
+`;
 
 const WorkTitleBlock = styled.div`
   text-align: center;

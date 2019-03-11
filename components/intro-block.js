@@ -6,6 +6,7 @@ import ReactSVG from 'react-svg';
 const IntroBaseBlockContainer = styled(BlockContainer)`
   justify-content: center;
   align-items: center;
+  color: #fff;
 `;
 
 const DisplayPictureBlock = styled.div`
@@ -110,6 +111,31 @@ const SocialIcon = styled.a`
   }
 `;
 
+const ResumeIcon = styled(SocialIcon)`
+  div {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+      background: #ff7777;
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+      height: 45.37px;
+      width: 45.37px;
+      box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.22);
+      svg {
+        height: 26px;
+        width: 26px;
+      }
+    }
+  }
+`;
+
 const IntroBlock = () => {
   const IntroTextPartOne = `i'm gautham ramachandran, a senior programmer with eight years of
   industry experience, specializing in developing scalable web and mobile
@@ -126,12 +152,15 @@ const IntroBlock = () => {
         {IntroTextPartTwo}
       </IntroDescriptionBlock>
       <SocialBlock>
-        <SocialIcon href="https://github.com/peek4y" target="_blank" rel="noopener" alt="">
+        <SocialIcon title="Github" href="https://github.com/peek4y" target="_blank" rel="noopener" alt="">
           <ReactSVG src="static/contact-github.svg" />
         </SocialIcon>
-        <SocialIcon href="https://www.linkedin.com/in/peek4y" target="_blank" rel="noopener" alt="">
+        <SocialIcon title="LinkedIn" href="https://www.linkedin.com/in/peek4y" target="_blank" rel="noopener" alt="">
           <ReactSVG src="static/contact-linkedin.svg" />
         </SocialIcon>
+        <ResumeIcon title="Resume" href="resume/GauthamRamachandranResume.pdf" target="_blank" rel="noopener" alt="" download>
+          <ReactSVG src="static/resume.svg" />
+        </ResumeIcon>
       </SocialBlock>
     </IntroBaseBlockContainer>
   );
