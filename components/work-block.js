@@ -69,7 +69,7 @@ const WorkBlock = () => {
     <WorkBlockContainer backgroundColor={BlockColorThree}>
       <WorkTitleBlock>stuff i'm working on, currently.</WorkTitleBlock>
       <WorkItemBlock>
-        <a href="https://github.com/deftia/falkonjs" target="_blank" rel="noopener">
+        <a href="https://github.com/peek4y/falkonjs" target="_blank" rel="noopener">
           <ReactSVG src="static/falkon.svg" />
         </a>
       </WorkItemBlock>
