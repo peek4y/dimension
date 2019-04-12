@@ -133,7 +133,10 @@ const IntroBlock = () => {
         <SocialIcon title="LinkedIn" href="https://www.linkedin.com/in/peek4y" target="_blank" rel="noopener" alt="">
           <ReactSVG src="static/contact-linkedin.svg" />
         </SocialIcon>
-        <SocialIcon title="Resume" href="static/resume/GauthamRamachandranResume.pdf" target="_blank" rel="noopener" alt="" download="GauthamRamachandranResume.pdf">
+        <SocialIcon title="Resume" href="https://dribbble.com/peek4y" target="_blank" rel="noopener" alt="">
+          <ReactSVG src="static/dribbble-ball-icon.svg" />
+        </SocialIcon>
+        <SocialIcon title="Dribbble" href="static/resume/GauthamRamachandranResume.pdf" target="_blank" rel="noopener" alt="" download="GauthamRamachandranResume.pdf">
           <ReactSVG src="static/resume.svg" />
         </SocialIcon>
       </SocialBlock>

@@ -1,14 +1,10 @@
 import { BlockContainer } from '../block-container';
 import styled from 'styled-components';
-import { BlockColorFour, BlockColorThree } from '../../colors';
+import { BlockColorFour } from '../../colors';
 import TextInput from './text-input';
 import BlockButton from '../block-button';
 
-const ContactBlockContainer = styled(BlockContainer)`
-  @media (max-width: 1000px) {
-    background: ${BlockColorThree};
-  }
-`;
+const ContactBlockContainer = styled(BlockContainer)``;
 
 const ContactTitleBlock = styled.div`
   text-align: center;
@@ -81,8 +77,8 @@ const HiddenSubmit = styled.input`
 const ContactBlock = () => {
   return (
     <ContactBlockContainer backgroundColor={BlockColorFour}>
-      <ContactTitleBlock>hit me up</ContactTitleBlock>
       <ContactTypeContainer>
+        <ContactTitleBlock>hit me up</ContactTitleBlock>
         <ContactForm
           name="contact"
           method="POST"
