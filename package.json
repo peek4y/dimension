@@ -21,7 +21,7 @@
   },
   "homepage": "https://gitlab.com/peek4y/dimension#readme",
   "dependencies": {
-    "next": "^8.0.3",
+    "next": "^9.3.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-svg": "^7.2.7",
