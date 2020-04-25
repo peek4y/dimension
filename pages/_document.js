@@ -8,7 +8,7 @@ export default class DimensionDocument extends Document {
    */
   static getInitialProps({ renderPage }) {
     const sheet = new ServerStyleSheet();
-    const page = renderPage(App => props =>
+    const page = renderPage((App) => (props) =>
       sheet.collectStyles(<App {...props} />)
     );
     const styleTags = sheet.getStyleElement();
@@ -30,7 +30,7 @@ export default class DimensionDocument extends Document {
           <meta name="theme-color" content="orange" />
           <link rel="icon" type="image/x-icon" href="/static/images/gr.png" />
           <link
-            href="https://fonts.googleapis.com/css?family=Major+Mono+Display&amp;subset=latin-ext"
+            href="https://fonts.googleapis.com/css?family=Manrope:200,300,400,500,600,700,800&display=swap"
             rel="stylesheet"
             async
           />

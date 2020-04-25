@@ -1,7 +1,6 @@
 import React from 'react';
 import App, { Container } from 'next/app';
 import { createGlobalStyle } from 'styled-components';
-import PageLoaderBlock from '../components/page-loader';
 import Head from 'next/head';
 
 const GlobalStyle = createGlobalStyle`
@@ -12,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     min-height: 100vh;
     justify-content: center;
-    font-family: 'Major Mono Display', monospace;
+    font-family: 'Manrope', sans-serif;
   }
 `;
 
@@ -36,7 +35,6 @@ export default class DimensionApp extends App {
         <Head>
           <title>Gautham Ramachandran</title>
         </Head>
-        <PageLoaderBlock id="dim-spinner" />
         <GlobalStyle />
         <Component {...pageProps} />
       </Container>
