@@ -20,8 +20,9 @@ const HeaderContainer = styled(Container)`
 `;
 
 const TitleContainer = styled(Container)`
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: center;
+  flex: 0.7;
 `;
 
 const Subtitle = styled(Container)`
@@ -70,7 +71,7 @@ const Bar = styled(Container)`
   max-width: 2px;
   background: #000;
   flex: 1;
-  height: 60%;
+  height: 65%;
   align-self: center;
   margin: 0em 1.5em;
 `;
@@ -108,15 +109,15 @@ const Home = () => {
           <Bar></Bar>
           <TitleContainer>
             <Title>Gautham</Title>
-            <Title>Ramachandran.</Title>
+            <Title>Ramachandran</Title>
             <Container
               style={{ marginTop: '1em', flex: 'none', marginRight: '2px' }}
             >
-              <Subtitle>// Software dev.</Subtitle>
-              <Subtitle>// Language agnostic.</Subtitle>
+              <Subtitle>> Software dev.</Subtitle>
+              <Subtitle>> Language agnostic.</Subtitle>
               <Subtitle style={{ display: 'inline-flex' }}>
                 <span>
-                  //{' '}
+                  >{' '}
                   <a
                     href="https://en.wikipedia.org/wiki/Functional_programming"
                     target="_blank"
@@ -127,8 +128,8 @@ const Home = () => {
                 </span>
               </Subtitle>
               <Subtitle>
-                // Likes building stuff, breaking stuff, writing bugs, fixing
-                them, the usual.
+                > Likes building stuff, breaking stuff, writing bugs, fixing
+                them, making things better, learning new things, repeat.
               </Subtitle>
             </Container>
           </TitleContainer>
