@@ -109,12 +109,25 @@ const Home = () => {
           <TitleContainer>
             <Title>Gautham</Title>
             <Title>Ramachandran.</Title>
-            <Container style={{ marginTop: '1em', flex: 'none', marginRight: '2px' }}>
-              <Subtitle>/ Software dev.</Subtitle>
-              <Subtitle>/ Language agnostic.</Subtitle>
-              <Subtitle>/ FP Enthusiast.</Subtitle>
+            <Container
+              style={{ marginTop: '1em', flex: 'none', marginRight: '2px' }}
+            >
+              <Subtitle>// Software dev.</Subtitle>
+              <Subtitle>// Language agnostic.</Subtitle>
+              <Subtitle style={{ display: 'inline-flex' }}>
+                <span>
+                  //{' '}
+                  <a
+                    href="https://en.wikipedia.org/wiki/Functional_programming"
+                    target="_blank"
+                  >
+                    FP
+                  </a>{' '}
+                  Enthusiast.
+                </span>
+              </Subtitle>
               <Subtitle>
-                / Likes building stuff, breaking stuff, writing bugs, fixing
+                // Likes building stuff, breaking stuff, writing bugs, fixing
                 them, the usual.
               </Subtitle>
             </Container>
